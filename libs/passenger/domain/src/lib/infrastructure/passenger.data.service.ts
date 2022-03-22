@@ -10,7 +10,7 @@ export class PassengerDataService {
   }
 
   load(name: string, firstname: string): Observable<Passenger[]> {
-    const url = '/passenger-api';
+    const url = '/passenger-api/passenger';
 
     const params = new HttpParams()
       .set('name', name)
