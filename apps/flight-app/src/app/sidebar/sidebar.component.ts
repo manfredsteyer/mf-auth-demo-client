@@ -5,6 +5,5 @@ import {Component} from '@angular/core';
   selector: 'sidebar-cmp',
   templateUrl: 'sidebar.component.html',
 })
-
 export class SidebarComponent {
 }
